@@ -149,7 +149,7 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
             class="img-fluid rounded shadow-lg"
             height="auto"
             width="300px"
-            src="./assets/profile.jpg"
+            src="./assets/profile_park_BW.jpg"
             alt="Profile Image"
           />
         </div>
