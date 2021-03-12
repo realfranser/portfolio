@@ -21,6 +21,28 @@
   }
 }
 
+/* Navbar Button */
+.logo-btn {
+  @include supportColorForIE11();
+  height: 35px;
+  width: 120px; 
+  color: $white-color;
+
+  @include supportIE11() {
+    color:$white-color !important;
+    &:hover {
+      color:$dark-blue-text !important;
+    }
+    }
+  &::hover {
+    text-decoration: none;
+    color: #000;
+  }
+    &::after {
+      width: 100%;
+    }
+}
+
 /* Hero Style */
 .cta-btn--hero {
   @include supportColorForIE11();
