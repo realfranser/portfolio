@@ -44,9 +44,7 @@
   <!-- **** Create Navbar **** -->
   <nav>
     <div class="logo">
-      <a class="logo-btn" href="#top">
-        <h4 class="logo-title">My portfolio</h4>
-      </a>
+      <a href="#top">MY PORTFOLIO</a>
     </div>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -60,6 +58,12 @@
       <div class="line3"></div>
     </div>
   </nav>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function () {
+      var nav = document.querySelector("nav");
+      nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
 
   <!-- **** Hero Section **** -->
   <div id="hero" class="jumbotron">

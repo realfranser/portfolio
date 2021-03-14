@@ -1,9 +1,10 @@
 import initTilt from './js/tilt';
 import initSr from './js/sr';
+import burger from './js/burger'
 
 import './style/main.scss';
 
-$('a[href^="#"]').on('click', function(event) {
+$('a[href^="#"]').on('click', function (event) {
   var target = $(this.getAttribute('href'));
   if (target.length) {
     event.preventDefault();
@@ -20,3 +21,4 @@ $('a[href^="#"]').on('click', function(event) {
 
 initSr();
 initTilt();
+burger();

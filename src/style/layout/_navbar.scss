@@ -1,4 +1,5 @@
 nav {
+    z-index: 5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,24 +16,55 @@ nav {
         );
 }
 
+.sticky {
+    min-height: 5.5vh;
+
+    .burger {
+        padding-top: 0.25vh;
+    }
+}
+
 .logo {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
 }
 
+
+.logo a {
+    color: $white-color;
+    font-weight: bold;
+
+    &:hover{
+        color: $dark-blue-text;
+    }
+
+    &:after {
+        color: $white-color;
+    }
+}
+
 .nav-links {
+    padding-top: 0.66vh;
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
 
 .nav-links a {
-    color: rgb(226, 226, 226);
+    color: $white-color;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 15px;
+
+    &:hover {
+        color: $dark-blue-text;
+    }
+
+    &:after {
+        color: $white-color;
+    }
 }
 
 .nav-links li {
@@ -46,9 +78,15 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: rgb(226, 226, 226);
+    background-color: $white-color;
     margin: 5px;
     transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1324px) {
+    .nav-links {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -88,6 +126,13 @@ nav {
     .burger {
         display: block;
         cursor: pointer;
+    }
+
+    .sticky {
+        .nav-links {
+            top: 5.5vh;
+            height: 94.5vh;
+        }
     }
 }
 
