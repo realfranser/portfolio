@@ -321,6 +321,12 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 - [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 - [Popper.js](https://popper.js.org/) - JavaScript popover library
 
+## Other tools 🧰
+
+- [Gif Maker](https://gifcap.dev/) - Online simple gif creator (no download required!)
+
+- [Google Drive](https://www.google.com/drive) - Links to pdf documents
+
 ## Authors
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
