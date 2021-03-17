@@ -23,6 +23,32 @@ nav {
         padding-top: 0.25vh;
     }
 }
+.sticky_red {
+    min-height: 5.5vh;
+
+    .burger {
+        padding-top: 0.25vh;
+    }
+}
+
+.sticky_white {
+    min-height: 5.5vh;
+    background-color: $white-color;
+    .logo a{
+        color: $primary-color;
+        &:hover{
+        color: $dark-blue-text;
+        }
+
+        &:after {
+        color: $primary-color;
+        }
+    }
+
+    .burger {
+        padding-top: 0.25vh;
+    }
+}
 
 .logo {
     text-transform: uppercase;
@@ -129,6 +155,20 @@ nav {
     }
 
     .sticky {
+        .nav-links {
+            top: 5.5vh;
+            height: 94.5vh;
+        }
+    }
+
+    .sticky_red {
+        .nav-links {
+            top: 5.5vh;
+            height: 94.5vh;
+        }
+    }
+
+    .sticky_white {
         .nav-links {
             top: 5.5vh;
             height: 94.5vh;
