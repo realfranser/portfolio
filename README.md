@@ -1,4 +1,4 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/realfranser/portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
+# My portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/realfranser/portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/realfranser/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/realfranser/portfolio)
 
 
 ## A minimal portfolio template for Developers!
@@ -324,6 +324,7 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 ## Authors
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- **Francisco Javier Serrano** - [https://github.com/realfranser](https://github.com/realfranser)
 
 ## Status
 
